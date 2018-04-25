@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>vacio</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+
+	<style>
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			margin:0;
+			padding:0;
+			height: 100%;
+		}
+
+		#container {
+			height: 100%;
+		}
+
+		#panel-izquierdo {
+			text-align: center;
+			float: left;
+			margin-top: 15%;
+			margin-left: 0;
+			width: 30%;
+		}
+
+		#panel-derecho {
+			min-height: 100%;
+			float: right;
+			width: 70%;
+			background: #aaa;
+			color: #fff;
+		}
+		#output {
+			text-align: justify;
+			margin: 10%;
+		}
+
+		canvas {
+			margin:auto;
+		}
+		
+		#dropzone {
+			text-align: center;
+			font-size: 18pt;
+			width: 50%;
+			margin: auto;
+			padding : 3%;
+			border-style: dashed;
+		}
+		input {
+			width: 50%;
+			margin-top: 5%;
+			margin-left: 25%;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="panel-izquierdo">
+			<h1>vacío</h1>
+			<p id="dropzone">arrastra tu texto aquí</p>
+		</div>
+		<div id="panel-derecho">
+			
+		</div>
+	</div>
+	
+	
+</body>
+</html>
